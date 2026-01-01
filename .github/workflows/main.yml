@@ -1,0 +1,13 @@
+name: Disable-Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  job-name:
+    runs-on: ububtu-latest
+
+    steps:
+      - name: Disable Workflow
+        run: echo"Disabled Workflow"

@@ -6,7 +6,7 @@ on:
 
 jobs:
   job-name:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Disable Workflow
